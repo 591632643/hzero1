@@ -44,7 +44,7 @@ hzero:
     authorize-url: ${HZERO_OAUTH_AUTHORIZE_URL:http://dev.hzero.org:8080/oauth/oauth/authorize}
     redirect-url: ${HZERO_OAUTH_REDIRECT_URL:http://dev.hzero.org:8200}
     logout-redirect-url: ${HZERO_OAUTH_REDIRECT_URL:http://dev.hzero.org:8200}
-    workplace-url: ${HZERO_OAUTH_WORKPLACE_URL:http://dev.hzero.org/}
+    workplace-url: ${HZERO_OAUTH_WORKPLACE_URL:http://dev.hzero.org:8080/}
   lov:
     sql:
       enabled: true
